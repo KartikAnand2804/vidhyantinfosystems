@@ -16,7 +16,7 @@ import django_heroku
 # import dj_database_url
 from decouple import config
 
-from .env import load_dotenv, find_dotenv
+from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 
